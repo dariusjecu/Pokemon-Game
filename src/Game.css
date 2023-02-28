@@ -1,0 +1,43 @@
+.game{
+    display: flex;
+    gap: 5rem;
+}
+
+.status{
+    display: flex;
+    gap: 1rem;
+}
+
+.status h2{
+    text-align: left;
+}
+
+.bar{
+    width: 7rem;
+    height: 0.5rem;
+    border: 1px solid white;
+}
+
+.health1-bar{
+    background-color: rgb(167, 81, 81);
+    height: 100%;
+    width: var(--player1-health);
+}
+
+.energy1-bar{
+    background-color: rgb(80, 80, 173);
+    height: 100%;
+    width: var(--player1-energy);
+}
+
+.health2-bar{
+    background-color: rgb(167, 81, 81);
+    height: 100%;
+    width: var(--player2-health);
+}
+
+.energy2-bar{
+    background-color: rgb(80, 80, 173);
+    height: 100%;
+    width: var(--player2-energy);
+}

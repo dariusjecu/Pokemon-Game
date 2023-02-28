@@ -1,0 +1,42 @@
+.pokemon{
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 0 2.5rem 2rem 2.5rem;
+    font-size: .5rem;
+    position: relative;
+}
+
+.pokemon h1{
+    margin: 0;
+}
+
+.pokemon img{
+    width: 10rem;
+}
+
+.pokemon .flip{
+    transform: scaleX(-1);
+}
+
+.moves, .abilities{
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.pokemon .status{
+    display: flex;
+    justify-content: center;
+    font-size: .75rem;
+}
+
+.pokemon .ability{
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 1rem;
+    font-size: .35rem;
+    cursor: pointer;
+}
